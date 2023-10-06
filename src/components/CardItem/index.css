@@ -1,0 +1,60 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 10px;
+  width: 50%;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 10px;
+  width: 50%;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 10px;
+  width: 50%;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 10px;
+  width: 50%;
+}
+
+/* Write CSS code here. */
+.ulList {
+  list-style-type: none;
+}
+@media (min-width: 992px) {
+  .card-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-4 {
+    display: flex;
+    flex-direction: column;
+  }
+}

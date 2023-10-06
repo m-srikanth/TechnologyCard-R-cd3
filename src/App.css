@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.div1 {
+  padding: 50px;
+  font-family: 'Roboto';
+  background-color: #f4faff;
+}
+.div2 {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .div3 {
+    display: flex;
+  }
+}
